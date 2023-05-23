@@ -17,7 +17,7 @@ import seaborn as sns
 import plotly.express as px
 
 # Load dataset
-data = pd.read_csv("winequality-red.csv")
+data = pd.read_csv("data/winequality-red.csv")
 # check for missing values
 data.isnull().sum()
 # drop rows with missing values
